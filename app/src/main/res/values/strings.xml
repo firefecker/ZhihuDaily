@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">知乎日报</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="latestnews">今日热闻</string>
+    <string name="nav_home">首页</string>
+    <string name="nav_internet">互联网安全</string>
+    <string name="nav_dailypsychology">日常心理学</string>
+    <string name="nav_recommend">用户推荐日报</string>
+    <string name="nav_movie">电影日报</string>
+    <string name="nav_unrogue">不许无聊</string>
+    <string name="nav_design">设计日报</string>
+    <string name="nav_bigcompany">大公司日报</string>
+    <string name="nav_finance">财经日报</string>
+    <string name="nav_game">开始游戏</string>
+    <string name="nav_anime">动漫日报</string>
+    <string name="nav_music">音乐日报</string>
+    <string name="nav_physical">体育日报</string>
+    <string name="nav_features">功能</string>
+    <string name="nav_theme">主题切换</string>
+    <string name="nav_setting">设置</string>
+    <string name="action_notifications">消息</string>
+    <string name="collection">收藏</string>
+    <string name="share_content">这是我用kotlin和rxJava2写的一个android项目，完全模仿自知乎日报。apk下载地址：http://fir.im/yn4r</string>
+    <string name="downloaddir">http://fir.im/yn4r</string>
+
+    <string-array name="font_name_list">
+        <item>大号</item>
+        <item>中号</item>
+        <item>小号</item>
+    </string-array>
+    <string-array name="font_id_list">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+</resources>

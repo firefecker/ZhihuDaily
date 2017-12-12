@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pre_download"
+            android:summary="仅Wi-Fi下可用，自动下载最新内容"
+            android:title="自动离线下载"/>
+    <SwitchPreference
+            android:defaultValue="false"
+            android:key="pre_noimage"
+            android:summary="2G/3G网络下不下载图片"
+            android:title="无图模式" />
+
+    <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/font_name_list"
+            android:entryValues="@array/font_id_list"
+            android:key="pre_fontlist"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="大号"
+            android:title="请选择字体" />
+    <PreferenceCategory android:title="其它">
+        <SwitchPreference
+                android:defaultValue="true"
+                android:key="pre_push"
+                android:title="推送消息" />
+    </PreferenceCategory>
+
+    <Preference
+            android:key="pre_shareweibo"
+            android:title="点评分享"/>
+    <Preference
+            android:key="pre_clearcache"
+            android:title="清除缓存">
+    </Preference>
+    <Preference
+            android:key="pre_update"
+            android:title="检查更新" android:summary="版本：2.6.5">
+    </Preference>
+    <PreferenceCategory
+            android:title="反馈">
+        <Preference
+                android:key="pre_redback"
+                android:title="意见反馈"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

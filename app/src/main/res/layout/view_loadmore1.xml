@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_10"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ProgressBar
+            android:visibility="gone"
+            style="?android:attr/progressBarStyleLarge"
+            android:progressTint="@color/colorPrimaryDark"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+
+    <com.fire.zhihudaily.view.MaterialCircleView
+            android:layout_marginBottom="@dimen/dp_8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+
+    <TextView
+            android:layout_marginLeft="@dimen/dp_10"
+            android:text="正在加载"
+            android:gravity="center"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            />
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        >
+    <RelativeLayout
+            android:paddingRight="@dimen/dp_10"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_10"
+            android:background="@color/bg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_pic"
+                android:src="@drawable/logo"
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="@dimen/dp_30"
+                />
+        <TextView
+                android:id="@+id/tv_name"
+                android:text="比较白痴"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:textColor="@color/text_color1"
+                android:layout_marginLeft="@dimen/dp_35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        <TextView
+                android:id="@+id/tv_thumb"
+                android:drawableLeft="@drawable/ic_thumb"
+                android:drawablePadding="@dimen/dp_5"
+                android:text="10"
+                android:textColor="@color/text_color3"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        <TextView
+                android:id="@+id/tv_content"
+                android:gravity="left"
+                android:textColor="@color/text_color3"
+                android:layout_below="@id/img_pic"
+                android:layout_marginLeft="@dimen/dp_35"
+                android:text="同意你的观点，所以不可能有一个标准来评判一个前罪犯是否已经成功“改造”，能经受住各种“诱惑”和诱因！正因为犯罪的主客观因素太复杂，所以政策制定者不能太理想化，要避免让羊无防护地出现在曾经吃过羊的狼周围，尽管这只狼可能已经被“改造”过，被某些专家声称已经吃素。但把它放入无防备的羊群，对羊当然不好，对狼难道就好吗？"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        <TextView
+                android:id="@+id/tv_reply"
+                android:textColor="@color/text_color3"
+                android:text="Accordion渣男小昭:看开你没有理解犯罪的行为动机，犯罪很多是冲动性行为，在实行犯罪的时候很少考虑或弱化了该犯罪的法律风险，因此，加强处罚力度只是加强处罚手段，但只会起到很小的震慑作用。\n另外看评论中很多人拿食物和人做类比，我觉得这个比较是极其不合适的，人和食物在众多方面有太多的不同。\n当然，“标签化”的处事原则有多方面的考虑，有众多考量，在伦理角度需要思考的比法律原则性方面需要思考的更多。"
+                android:layout_below="@id/tv_content"
+                android:layout_marginLeft="@dimen/dp_35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        <TextView
+                android:id="@+id/tv_time"
+                android:text="12-11 10:15"
+                android:textColor="@color/text_color3"
+                android:layout_below="@id/tv_reply"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_35"
+                android:textSize="@dimen/sp_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        <TextView
+                android:layout_below="@id/tv_time"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@color/default1"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                />
+    </RelativeLayout>
+
+</FrameLayout>

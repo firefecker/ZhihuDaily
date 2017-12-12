@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_news"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_home" />
+        <item
+                android:id="@+id/nav_internet"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_internet" />
+        <item
+                android:id="@+id/nav_dailypsychology"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_dailypsychology" />
+        <item
+                android:id="@+id/nav_recommend"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_recommend" />
+        <item
+                android:id="@+id/nav_movie"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_movie" />
+        <item
+                android:id="@+id/nav_unrogue"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_unrogue" />
+        <item
+                android:id="@+id/nav_design"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_design" />
+        <item
+                android:id="@+id/nav_bigcompany"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_bigcompany" />
+        <item
+                android:id="@+id/nav_finance"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_finance" />
+        <item
+                android:id="@+id/nav_game"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_game" />
+        <item
+                android:id="@+id/nav_music"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_music" />
+        <item
+                android:id="@+id/nav_anime"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_anime" />
+        <item
+                android:id="@+id/nav_physical"
+                android:icon="@drawable/ic_insert_drive"
+                android:title="@string/nav_physical" />
+    </group>
+
+    <item android:title="@string/nav_features">
+        <menu>
+            <item
+                android:id="@+id/nav_theme"
+                android:icon="@drawable/ic_brightness"
+                android:title="@string/nav_theme" />
+            <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/nav_setting" />
+        </menu>
+    </item>
+
+</menu>

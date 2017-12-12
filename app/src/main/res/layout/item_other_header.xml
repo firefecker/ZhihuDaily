@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+    <ImageView
+            android:id="@+id/img_bg"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:background="@color/colordefault"
+            />
+
+    <TextView
+            android:id="@+id/tv_content"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:padding="@dimen/dp_10"
+            app:layout_constraintBottom_toBottomOf="@+id/img_bg"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_20"
+            android:text="把黑客知识科普到你的面前"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <LinearLayout
+            android:id="@+id/layout_editor"
+            app:layout_constraintTop_toBottomOf="@+id/img_bg"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            >
+        <TextView
+                android:text="主编"
+                android:textSize="@dimen/sp_15"
+                android:padding="@dimen/dp_10"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                />
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/mRecyclerViewEditor"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:orientation="horizontal"
+                android:nestedScrollingEnabled="false"
+                android:scrollbars="none"
+                android:clickable="false"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                app:scrollbars="none"
+                />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

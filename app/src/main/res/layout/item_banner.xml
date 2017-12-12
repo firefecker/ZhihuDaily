@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/ic_launcher"/>
+    <TextView
+            android:id="@+id/tv_content"
+            android:text="小事，其实你们都挺好的，除了学习"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:maxLines="2"
+            android:padding="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+</RelativeLayout>
